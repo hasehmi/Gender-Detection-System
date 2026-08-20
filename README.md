@@ -1,11 +1,11 @@
 # Real-Time Gender Detection System Using Machine Learning
 
 ## Project Description
-Is project mein computer vision aur machine learning ko istemal karte hue ek real-time gender classification system develop kiya gaya hai. Yeh system OpenCV ki madad se live webcam stream se faces detect karta hai aur `RandomForestClassifier` ka istemal karte hue unhe 'Male' ya 'Female' mein accurately classify karta hai. Is project ko Google Colab environment mein JavaScript aur Python ke integration ke sath banaya gaya hai takay browser mein hi live video processing ki ja sake.
+This project develops a real-time gender classification system using computer vision and machine learning[cite: 2]. The system detects faces from a live webcam stream using OpenCV and classifies them as 'Male' or 'Female' using a `RandomForestClassifier`[cite: 2]. I built this project in a Google Colab environment, integrating JavaScript and Python to enable live video processing directly in the browser[cite: 2].
 
 ## Key Features & Achievements
-* **Machine Learning Model Training:** Kaggle ke `genderdetectionface` dataset ko istemal karte hue scikit-learn ka Random Forest Classifier train kiya jisne 86.76% accuracy achieve ki.
-* **Computer Vision Pipeline:** OpenCV (`cv2`) ko use karte hue image preprocessing (grayscale conversion, resizing to 64x64, aur flattening) implement ki.
-* **Real-Time Face Detection:** Haar Cascade (`haarcascade_frontalface_default.xml`) ko integrate kiya takay live video feed mein faces detect kiye ja sakein.
-* **Colab & JavaScript Bridging:** Google Colab mein JavaScript code likh kar browser ke webcam ka access liya aur Python backend ke sath base64 encoding/decoding ke zariye live frames ko process karwaya.
-* **Dynamic Visual Feedback:** Video frames ke upar real-time mein bounding boxes draw kiye aur model ki prediction confidence display karwai (e.g., "Male: 86.7%").
+* Trained a scikit-learn Random Forest Classifier using the `genderdetectionface` dataset from Kaggle, achieving an 86.76% accuracy[cite: 2].
+* Implemented an image preprocessing pipeline using OpenCV (`cv2`) for grayscale conversion, resizing to 64x64, and flattening[cite: 2].
+* Integrated Haar Cascade (`haarcascade_frontalface_default.xml`) for real-time facial detection from live video feeds[cite: 2].
+* Accessed the browser's webcam by writing JavaScript code in Google Colab and processed live frames through a Python backend using base64 encoding and decoding[cite: 2].
+* Created dynamic visual feedback to draw bounding boxes and display the model's prediction confidence percentages on live video frames[cite: 2].
